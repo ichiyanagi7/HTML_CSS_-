@@ -71,7 +71,9 @@ header {
 }
 
 .row h2,
-.row-feature h2 {
+.row-feature h2,
+.row-profile h2,
+.row-contact h2 {
   font-size: 32px;
   color: #000;
   padding-top: 90px;
@@ -84,7 +86,9 @@ header {
   background-color: #ec715f;
 }
 
-.row p {
+.row p,
+.row-profile p,
+.row-contact p {
   padding-bottom: 30px;
   font-size: 16px;
   color: #000;
@@ -153,7 +157,6 @@ header {
   grid-template-columns: 320px 320px 320px;
   gap: 10px;
   width: 980px;
-  margin-top: 30px;
   margin: 30px auto 90px;
 }
 
@@ -174,4 +177,103 @@ header {
 
 .feature-box i {
   font-size: 60px;
+}
+
+.row-profile {
+  width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.profile-image {
+  width: 512px;
+  text-align: center;
+}
+
+.introduction {
+  width: 512px;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.skill {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.introduction p {
+  padding-top: 5px;
+}
+
+.row-contact {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.contact-left {
+  width: 400px;
+  text-align: center;
+}
+
+.contact-right {
+  width: 400px;
+  text-align: center;
+}
+
+.sns-icon {
+  display: flex;
+  justify-content: center;
+}
+.sns {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns:nth-child(3) {
+  margin-right: 0;
+}
+
+.contact-right h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-left h4 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+  color: #fafafa;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
